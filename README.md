@@ -12,7 +12,7 @@ We have successfully migrated r1-like reasoning abilities into the vision-langua
 pip install -r requirements.txt
 ```
 
-Note: After downloading `hcwei/FRANK-ZERO-38B`, you need to modify line `17` in the `FRANK-ZERO-38B/modeling_internvl_chat.py` file within its folder to point to the path where the `src/` directory is located. Due to our modifications to the attention mask, flash-attention is temporarily not supported.
+Note: Due to our modifications to the attention mask, flash-attention is temporarily not supported.
 ```python
 import numpy as np
 import torch
