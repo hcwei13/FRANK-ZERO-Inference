@@ -426,3 +426,11 @@ To determine the missing number in the third cross, we analyze the patterns in t
     \]
 
 Thus, the missing number is \($\boxed{7}$\)
+
+## License
+This project is released under the QwQ-32B (License: Apache-2.0) and InternVL2.5 (License: MIT) licenses. Portions of this project contain code and models from other sources, which are subject to their respective licenses.
+
+## Acknowledgement
+This code base is mainly built upon [InternVL2.5](https://github.com/OpenGVLab/InternVL). Thanks for their awesome work!
+
+We would also like to recognize and commend the following open source projects (e.g., [Qwen2.5VL](https://github.com/QwenLM/Qwen2.5-VL), [QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)), thank you for your great contribution to the open source community.
