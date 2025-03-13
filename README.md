@@ -128,7 +128,9 @@ print(f'User: {question}\nAssistant: {response}')
 
 <span style="font-weight: bold; color: red;">FRANK-ZERO</span> Output: 
 
-```
+```html
+<think>
+
 Okay, let's see. I need to figure out the missing number in this sequence of cross-shaped diagrams. Each cross has numbers arranged in a specific pattern, and the third one has a question mark where the missing number should be. Hmm, let me start by analyzing the first two crosses to find a pattern.
 
 First cross:
@@ -398,8 +400,8 @@ Therefore, the answer is 7.
 
 **Final Answer**
 \boxed{7}
-```
 
+</think>
 
 To determine the missing number in the third cross, we analyze the patterns in the first two crosses and apply the observed rules to the third.
 
@@ -425,7 +427,9 @@ To determine the missing number in the third cross, we analyze the patterns in t
     7 + 5 + x = 19 $\implies$ x = 19 - 12 = 7
     \]
 
-Thus, the missing number is \($\boxed{7}$\)
+Thus, the missing number is \(\boxed{7}\)
+```
+
 
 ## License
 This project is released under the QwQ-32B (License: Apache-2.0) and InternVL2.5 (License: MIT) licenses. Portions of this project contain code and models from other sources, which are subject to their respective licenses.
