@@ -12,7 +12,7 @@ We have successfully migrated r1-like reasoning abilities into the vision-langua
 pip install -r requirements.txt
 ```
 
-Note: Due to our modifications to the attention mask, flash-attention is temporarily not supported.
+
 ```python
 import numpy as np
 import torch
@@ -104,7 +104,7 @@ model = AutoModel.from_pretrained(
     path,
     torch_dtype=torch.bfloat16,
     low_cpu_mem_usage=True,
-    use_flash_attn=False,
+    use_flash_attn=True,
     trust_remote_code=True, 
     device_map="auto").eval()
 
