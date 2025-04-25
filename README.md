@@ -1,10 +1,10 @@
-# <span style="font-weight: bold; color: red;">FRANK-ZERO</span>: a FiRst And Naïve r1-liKe multimodal LLMs
+# <span style="font-weight: bold; color: red;">FRANK-ZERO</span>: a training-FRee And Native r1-liKe multimodal LLMs
 
 [\[📂 GitHub\]](https://github.com/hcwei13/FRANK-ZERO-Inference) [\[🤗 HF\]](https://huggingface.co/hcwei/FRANK-ZERO-38B)
 
 ## Introduction
 
-We have successfully migrated r1-like reasoning abilities into the vision-language joint space. Based on a unimodal language reasoning model (QwQ-32B) and a multimodal non-reasoning model (InternVL-38B), we constructed a FiRst And Naïve r1-liKe multimodal reasoning model, <span style="font-weight: bold; color: red;">FRANK-ZERO</span> 38B. It achieves an accuracy of 74.1% on the MathVista test-mini benchmark, surpassing the closed-source OpenAI o1 model (73.9% vs. 74.1%), and demonstrates excellent long chain-of-thought reasoning and reflection capabilities.
+We have successfully migrated r1-like reasoning abilities into the vision-language joint space. Based on a unimodal language reasoning model (QwQ-32B) and a multimodal non-reasoning model (InternVL-38B), we constructed a training-FRee And Native r1-liKe multimodal reasoning model, <span style="font-weight: bold; color: red;">FRANK-ZERO</span> 38B. It achieves an accuracy of 74.1% on the MathVista test-mini benchmark, surpassing the closed-source OpenAI o1 model (73.9% vs. 74.1%), and demonstrates excellent long chain-of-thought reasoning and reflection capabilities.
 
 
 ## Quickstart
